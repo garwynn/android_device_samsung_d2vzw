@@ -20,14 +20,14 @@
 # definition file).
 #
 
-# inherit from common D2
--include device/samsung/d2-common/BoardConfigCommon.mk
+# inherit from common jf
+-include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2vzw/BoardConfigVendor.mk
+-include vendor/samsung/jfltevzw/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2vzw
+TARGET_OTA_ASSERT_DEVICE := jfltevzw
 
 # Kernel
-TARGET_KERNEL_CONFIG        := cyanogen_d2vzw_defconfig
+TARGET_KERNEL_CONFIG        := jf_vzw_defconfig
