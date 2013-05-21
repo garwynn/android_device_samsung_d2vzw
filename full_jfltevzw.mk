@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/d2vzw/prebuilt/common/etc/apns-conf-vzw.xml:system/etc/apns-conf.xml
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := aokp_jfltevzw
+PRODUCT_NAME := cm_jfltevzw
 PRODUCT_DEVICE := jfltevzw
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
